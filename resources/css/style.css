@@ -165,6 +165,7 @@ header {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -303,3 +304,116 @@ section-meals {
     float:left;
     margin-right: 15px;
 }
+
+/** ------------------------------ **/
+/** OUR CITIES **/
+/** ------------------------------ **/
+
+.location-img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.city-features {
+    margin-bottom: 15px;
+}
+
+.city-features i {
+    color: #f26506;
+    margin-right: 5px;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.city-features a:link,
+.city-features a:visited {
+    text-decoration: none;
+    color: #f26506;
+    border-bottom: 1px solid #f26506;
+}
+
+.city-features a:hover,
+.city-features a:active {
+    text-decoration: none;
+    color: #5f5f5f;
+    border-bottom: 1px solid #f26506;
+}
+
+/** ------------------------------ **/
+/** TESTIMONIALS **/
+/** ------------------------------ **/
+
+#heading-testimonial {
+    color: #fff;
+}
+
+.cus-quote i {
+    font-size: 120%;
+    color: #f26506;
+}
+
+blockquote {
+    color: #fff;
+    line-height: 145%;
+    margin-bottom: 30px;
+    padding: 2%;
+    font-style: italic;
+}
+
+cite {
+    color: #f26506;
+    width: auto;
+    font-size: 90%;
+    display: block;
+}
+
+.cus-img {
+    border-radius: 50%;
+    border: 1px solid #f26506;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 15px;
+
+}
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(img/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/** ------------------------------ **/
+/** PLANS **/
+/** ------------------------------ **/
+
+.plans {
+    background-color: #f2f2f2;
+}
+
+.plan-box {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 5px solid #f2f2f2;
+}
+
+.plan-price {
+    font-size: 250%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #f26506;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
